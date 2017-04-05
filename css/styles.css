@@ -1,12 +1,13 @@
+body{
+    background-image:url(../img/Africa-Kenya-Lake-Nakuru-Flamingo-Flock-LT-Header.jpg);
+    background-repeat: repeat;
+}
 #container{
     margin-left: auto;
     margin-right: auto;
     max-width: 900px;
     align-content: center;
     background-color: white;
-}
-html{
-    background-image: 
 }
 header{
     background-color: firebrick;
@@ -15,6 +16,9 @@ header{
 }
 h3{
     padding-top: 0px;
+}
+h2{
+    padding-left: 10px;
 }
 #corp{
     font-family:serif;
@@ -25,9 +29,10 @@ nav{
     padding: 0;
     overflow: hidden;
 }
-#navbar1{
+#navbar1, #navbar2, #navbar3
+{
     font-family: serif;
-    width: 180px;
+    width: 185px;
     float: left;
     display: block;
     color: azure;
@@ -36,37 +41,159 @@ nav{
     text-decoration: none;
     background-color: darkred;
 }
-#navbar2{
+#search
+{
     font-family: serif;
-    width: 180px;
+    width: 185px;
     float: left;
     display: block;
-    color: azure;
-    text-align: center;
+    color: firebrick;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: darkred;
-}
-#navbar3{
-    font-family: serif;
-    width: 180px;
-    float: left;
-    display: block;
-    color: azure;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: darkred;
+    background-color: white;
 }
 #navbar1:hover,#navbar2:hover,#navbar3:hover{
     background-color: red;
 }
+#SmallHeli{
+    padding-right: 20px;
+    padding-top: 50px;
+}
+#shite{
+    float: right;
+    padding-right: 40px;
+    text-align: justify;
+    font: bold;
+}
 #stories{
     border-bottom: 5px solid firebrick;
 }
+#bus{
+    padding-left: 10px;
+}
+#bus:hover, #SmallHeli:hover, 
+#child:hover, #strike:hover,
+#axel:hover, #heli:hover,
+#gardai:hover{
+    opacity: 0.8;
+}
 #title{
     border-bottom: 5px solid firebrick;
-    padding: 5px;
+    padding-left: 10px;
+}
+.main{
+    border-right: 5px solid firebrick;
+    width: 70%;
+}
+.side{
+    width: 25%;
+    float: right;
+}
+#child, #strike, #axel, #heli, #bcs{
+    padding-left: 10px;
+    padding-right: 10px;
+}  
+#article1{
+    border-bottom: 5px solid firebrick;
+    border-top: 1px solid white;
+    padding-bottom: 50px;
+}
+#article10{
+    border-bottom: 5px solid firebrick;
+    border-top: 1px solid white;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+#sick, #bed{ 
+    border-bottom: 5px solid firebrick; 
+    border-top:  5px solid firebrick;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#Syria{
+    padding-left: 20px
+}
+#sp, #bp, #lp, #fp, #gp{
+    font: sans-serif;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#article2{
+    border-bottom: 5px solid firebrick;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+#wrc{
+    padding-left: 20px;
+}
+#doggo, #men{ 
+    border-bottom: 5px solid firebrick; 
+    border-top:  5px solid firebrick;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#article3{
+    border-bottom: 5px solid firebrick;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+#lit{
+    padding-left: 20px;
+}
+#gwr{
+    border-bottom: 5px solid firebrick; 
+    border-top:  5px solid firebrick;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#vid{
+    border-bottom: 5px solid firebrick; 
+    border-top:  5px solid firebrick;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#article4{
+    border-bottom: 5px solid firebrick;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+#slap, #tommy{ 
+    border-bottom: 5px solid firebrick; 
+    border-top:  5px solid firebrick;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#article5{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+#gardai, #murder{
+    padding-left: 10px;
+}
+#acc, #car{
+    border-bottom: 5px solid firebrick; 
+    border-top:  5px solid firebrick;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 footer{
     background-color: firebrick;
@@ -75,32 +202,10 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#featured{
-    border-right: 5px solid firebrick;
-    width: 650px;
-}
-#article1{
-    border-bottom: 5px solid firebrick;
-    border-top: 1px solid white;
-    padding-bottom: 50px;
-}
-#article2{
-    border-bottom: 5px solid firebrick;
-    padding-top: 8px;
-    padding-bottom: 50px;
-}
-#article3{
-    border-bottom: 5px solid firebrick;
-    padding-top: 8px;
-    padding-bottom: 50px;
-}
-#article4{
-    border-bottom: 5px solid firebrick;
-    padding-top: 8px;
-    padding-bottom: 50px;
-}
-#pigs{
-    padding-right: 10px;
-}
+
+
+
+
+
 
 
